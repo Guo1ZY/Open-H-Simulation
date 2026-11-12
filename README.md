@@ -15,7 +15,7 @@
 
 ## 1. 安装并启动
 
-先克隆仓库并进入项目目录（私有仓库需要 GitHub 账号具备访问权限）：
+先克隆仓库并进入项目目录：
 
 ```bash
 git clone https://github.com/Guo1ZY/Open-H-Simulation.git
