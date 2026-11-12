@@ -1,0 +1,21 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local recordings and generated verification results
+sim/recordings_native/
+sim/verification/
+
+# Editor, OS and local configuration
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.log

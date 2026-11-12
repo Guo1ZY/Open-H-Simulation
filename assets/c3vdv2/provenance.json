@@ -1,0 +1,34 @@
+{
+  "asset": "c1_sigmoid1_model.zip",
+  "status": "Downloaded from official file page through browser; archive MD5 matches official metadata",
+  "source_url": "https://archive.data.jhu.edu/api/access/datafile/14337",
+  "file_page": "https://archive.data.jhu.edu/file.xhtml?fileId=14337&version=3.0",
+  "project_page": "https://durrlab.github.io/C3VDv2/",
+  "official_model_table": "https://durrlab.github.io/C3VDv2/assets/data/C3VDv2_data_summary_models.csv",
+  "dataset_doi": "10.7281/T1/JC64MK",
+  "dataset_version": "3.0",
+  "authors": [
+    "Mayank V. Golhar",
+    "Lucas Sebastian Galeano Fretes",
+    "Loren Ayers",
+    "Venkata S. Akshintala",
+    "Taylor L. Bobrow",
+    "Nicholas J. Durr"
+  ],
+  "dataset_title": "Data associated with the publication: C3VDv2: 3D colonoscopy video dataset with enhanced realism",
+  "publisher": "Johns Hopkins Research Data Repository",
+  "citation_year": 2025,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "expected_md5": "beeb4843927b1c3e00d0e9f81eb0f76a",
+  "reported_archive_size": "14.3 MB",
+  "archive_relative_path": "3D_models/colon1/lumens/",
+  "note": "Original C3VD v1 is CC BY-NC-SA 4.0; this selected c1_sigmoid1 asset belongs to C3VDv2 and official file page identifies CC BY 4.0.",
+  "download_verified": true,
+  "verified_md5": "beeb4843927b1c3e00d0e9f81eb0f76a",
+  "zip_members": [
+    "c1_sigmoid1.obj"
+  ],
+  "modifications": "Original OBJ retained. Derived v10 copies repair winding, convert millimeters to meters, rotate/translate for entry alignment, decimate display to45000 and collision to3500 faces, extrude outward2mm for rigid shell, use illustrative pink material.",
+  "package_note": "Original extracted OBJ included; source ZIP checksum is retained for provenance. Redundant ZIP not included."
+}

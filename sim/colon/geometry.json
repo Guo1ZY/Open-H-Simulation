@@ -1,0 +1,58 @@
+{
+  "source": "assets/c3vdv2/source/c1_sigmoid1.obj",
+  "license": "CC BY 4.0",
+  "scale_to_meters": 0.001,
+  "source_faces": 439992,
+  "visual_faces": 45000,
+  "collision_faces": 3500,
+  "source_inlet_center": [
+    -63.4288739709461,
+    -16.004733305820384,
+    -28.77676166089013
+  ],
+  "source_inward_normal": [
+    0.9764619996787227,
+    -0.10718505196215206,
+    0.1871719204883597
+  ],
+  "source_to_local_rotation": [
+    [
+      0.9764619996787227,
+      -0.10718505196215206,
+      0.1871719204883597
+    ],
+    [
+      -0.07133574660838345,
+      0.6584622419300976,
+      0.7492253914598824
+    ],
+    [
+      -0.2035514049061185,
+      -0.7449421726471527,
+      0.6353172317610195
+    ]
+  ],
+  "local_bounds_m": [
+    [
+      -4.3564144477370344e-08,
+      -0.0160610317000915,
+      -0.035664140389847776
+    ],
+    [
+      0.13995730574678042,
+      0.07817177626896195,
+      0.0234829283368915
+    ]
+  ],
+  "outlet_local_m": [
+    0.11729369563551563,
+    0.06437050712587135,
+    0.0
+  ],
+  "inlet_radius_range_m": [
+    0.00983765680506055,
+    0.025825102805373003
+  ],
+  "wall_thickness_m": 0.002,
+  "description": "Original open lumen surface; rigid uncalibrated wall, simplified visual and separate outward-extruded triangular prism colliders; no original RGB texture supplied."
+}

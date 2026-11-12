@@ -1,0 +1,136 @@
+{
+  "source": "assets/c3vdv2/source/c1_sigmoid1.obj",
+  "geometry": {
+    "source": "assets/c3vdv2/source/c1_sigmoid1.obj",
+    "license": "CC BY 4.0",
+    "scale_to_meters": 0.001,
+    "source_faces": 439992,
+    "visual_faces": 45000,
+    "collision_faces": 3500,
+    "source_inlet_center": [
+      -63.4288739709461,
+      -16.004733305820384,
+      -28.77676166089013
+    ],
+    "source_inward_normal": [
+      0.9764619996787227,
+      -0.10718505196215206,
+      0.1871719204883597
+    ],
+    "source_to_local_rotation": [
+      [
+        0.9764619996787227,
+        -0.10718505196215206,
+        0.1871719204883597
+      ],
+      [
+        -0.07133574660838345,
+        0.6584622419300976,
+        0.7492253914598824
+      ],
+      [
+        -0.2035514049061185,
+        -0.7449421726471527,
+        0.6353172317610195
+      ]
+    ],
+    "local_bounds_m": [
+      [
+        -4.3564144477370344e-08,
+        -0.0160610317000915,
+        -0.035664140389847776
+      ],
+      [
+        0.13995730574678042,
+        0.07817177626896195,
+        0.0234829283368915
+      ]
+    ],
+    "outlet_local_m": [
+      0.11729369563551563,
+      0.06437050712587135,
+      0.0
+    ],
+    "inlet_radius_range_m": [
+      0.00983765680506055,
+      0.025825102805373003
+    ],
+    "wall_thickness_m": 0.002,
+    "description": "Original open lumen surface; rigid uncalibrated wall, simplified visual and separate outward-extruded triangular prism colliders; no original RGB texture supplied.",
+    "world_entry_m": [
+      0.016999999999999807,
+      0.4919999999999998,
+      0.7179999999999997
+    ]
+  },
+  "probe_scan": [
+    {
+      "depth_m": -0.02,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": -0.01,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.005,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.01,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.015,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.025,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.035,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.045,
+      "contacts": 0,
+      "penetration_m": 0.0
+    },
+    {
+      "depth_m": 0.05,
+      "contacts": 11,
+      "penetration_m": 0.0009987582617191782
+    },
+    {
+      "depth_m": 0.055,
+      "contacts": 20,
+      "penetration_m": 0.0035062179080631198
+    },
+    {
+      "depth_m": 0.06,
+      "contacts": 40,
+      "penetration_m": 0.006098038146514012
+    }
+  ],
+  "initial_wall_contacts": 0,
+  "simulation_seconds": 8.299999999999441,
+  "max_wall_penetration_m": 2.5584635843426892e-05,
+  "max_wall_single_contact_force_N": 0.4537348223273161,
+  "wall_contacts_all_steps": 2124,
+  "robot_contacts_all_steps": 0,
+  "max_connection_gap_m": 0.000261843230810224,
+  "notes": "Rigid hollow shell. Probe verifies open entry and expected curved-wall obstruction. Dynamic path tests limited forward/back and steering; not full-segment navigation."
+}

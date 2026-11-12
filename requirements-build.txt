@@ -1,0 +1,7 @@
+# Only needed to regenerate models, not to launch prebuilt scene.
+-r requirements.txt
+trimesh==5.2.0
+scipy==1.18.1
+fast-simplification==0.2.0
+rtree==1.4.1
+networkx==3.7
