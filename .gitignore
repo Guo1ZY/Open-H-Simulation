@@ -9,6 +9,8 @@ __pycache__/
 # Local recordings and generated verification results
 sim/recordings_native/
 sim/verification/
+sim/scene_tmp.xml
+sim/bridge_layout_tmp.xml
 
 # Editor, OS and local configuration
 .DS_Store
